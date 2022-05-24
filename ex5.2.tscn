@@ -7,5 +7,5 @@
 script = ExtResource( 2 )
 
 [node name="StaticBody2D" parent="." instance=ExtResource( 1 )]
-position = Vector2( 218, 433 )
+position = Vector2( 278, 481 )
 rotation = 0.155639
