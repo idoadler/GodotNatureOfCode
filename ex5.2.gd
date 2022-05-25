@@ -16,6 +16,6 @@ func _process(delta):
 	pass
 	if(Input.is_action_just_pressed("click")): 
 		var m_pos = get_viewport().get_mouse_position()
-		var unit = load("res://block.tscn").instance()
+		var unit = load("res://circle.tscn").instance()
 		add_child(unit)
 		unit.position = m_pos 
